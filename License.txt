@@ -1,7 +1,7 @@
 ﻿<div class="License">
 	<h3>License</h3>
 	<p class="Owner">
-		University of Oklahoma - Human Resources <a href=http://hr.ou.edu>http://hr.ou.edu</a></br>
+		Gafware <a href=https://www.gafware.com>https://www.gafware.com</a></br>
 		Copyright (c) 2014</br>	
 		by Glenn Flansburg</br>
 	</p>

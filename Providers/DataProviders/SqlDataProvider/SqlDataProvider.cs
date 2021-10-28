@@ -14,7 +14,7 @@ using System;
 using DotNetNuke.Common.Utilities;
 using DotNetNuke.Framework.Providers;
 
-namespace OUHR.Modules.FileExplorer.Data
+namespace Gafware.Modules.FileExplorer.Data
 {
 
     /// -----------------------------------------------------------------------------

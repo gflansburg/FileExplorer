@@ -120,4 +120,55 @@
   <data name="ControlTitle_settings.Text" xml:space="preserve">
     <value>File Explorer Settings</value>
   </data>
+  <data name="lblAllowPaging.Text" xml:space="preserve">
+    <value>Enable paging?</value>
+  </data>
+  <data name="lblDisplayUpFolder.Text" xml:space="preserve">
+    <value>Display up folder(..) item?</value>
+  </data>
+  <data name="lblEnableCreateNewFolder.Text" xml:space="preserve">
+    <value>Allow new folders?</value>
+  </data>
+  <data name="lblEnableDelete.Text" xml:space="preserve">
+    <value>Enable delete?</value>
+  </data>
+  <data name="lblEnableOpenFile.Text" xml:space="preserve">
+    <value>Open files on double-click?</value>
+  </data>
+  <data name="lblEnablePreview.Text" xml:space="preserve">
+    <value>Enable preview?</value>
+  </data>
+  <data name="lblEnableUpload.Text" xml:space="preserve">
+    <value>Enable upload?</value>
+  </data>
+  <data name="lblHeight.Help" xml:space="preserve">
+    <value>Height, in pixels, of the control</value>
+  </data>
+  <data name="lblHeight.Text" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="lblRootDirectory.Help" xml:space="preserve">
+    <value>Virtual path to folder</value>
+  </data>
+  <data name="lblRootDirectory.Text" xml:space="preserve">
+    <value>Root Folder</value>
+  </data>
+  <data name="lblSearchPatterns.Help" xml:space="preserve">
+    <value>*.* for everything</value>
+  </data>
+  <data name="lblSearchPatterns.Text" xml:space="preserve">
+    <value>Search Patterns (One per line)</value>
+  </data>
+  <data name="lblShowHiddenFiles.Text" xml:space="preserve">
+    <value>Show hidden files?</value>
+  </data>
+  <data name="lblShowSystemFiles.Text" xml:space="preserve">
+    <value>Show system files?</value>
+  </data>
+  <data name="lblSkin.Text" xml:space="preserve">
+    <value>Skin</value>
+  </data>
+  <data name="lblVisibleControls.Text" xml:space="preserve">
+    <value>Visible Controls</value>
+  </data>
 </root>

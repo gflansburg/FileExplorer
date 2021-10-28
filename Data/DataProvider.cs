@@ -16,7 +16,7 @@ using DotNetNuke.Common.Utilities;
 using DotNetNuke.Framework.Providers;
 
 
-namespace OUHR.Modules.FileExplorer.Data
+namespace Gafware.Modules.FileExplorer.Data
 {
 
     /// -----------------------------------------------------------------------------
@@ -39,7 +39,7 @@ namespace OUHR.Modules.FileExplorer.Data
         {
             if (provider == null)
             {
-                const string assembly = "OUHR.Modules.FileExplorer.Data.SqlDataprovider,OUHR.FileExplorer";
+                const string assembly = "Gafware.Modules.FileExplorer.Data.SqlDataprovider,Gafware.FileExplorer";
                 Type objectType = Type.GetType(assembly, true, true);
 
                 provider = (DataProvider)Activator.CreateInstance(objectType);

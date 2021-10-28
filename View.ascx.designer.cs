@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OUHR.Modules.FileExplorer {
+namespace Gafware.Modules.FileExplorer {
     
     
     public partial class View {

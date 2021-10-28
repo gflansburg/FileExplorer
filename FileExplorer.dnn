@@ -3,12 +3,12 @@
     <package name="FileExplorer" type="Module" version="01.00.00">
       <friendlyName>File Explorer</friendlyName>
       <description>File Explorer module</description>
-      <iconFile>Images/ou.gif</iconFile>
+      <iconFile>Images/fileexplorer.png</iconFile>
       <owner>
         <name>Glenn Flansburg</name>
-        <organization>University of Oklahoma - Human Resources</organization>
-        <url>http://hr.ou.edu</url>
-        <email>ohr@ou.edu</email>
+        <organization>Gafware</organization>
+        <url>https://www.gafware.com</url>
+        <email>support@gafware.com</email>
       </owner>
       <license src="License.txt"></license>
       <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
@@ -19,7 +19,7 @@
       <components>
         <component type="Script">
           <scripts>
-            <basePath>DesktopModules\OUHR\FileExplorer</basePath>
+            <basePath>DesktopModules\Gafware\FileExplorer</basePath>
             <script type="Install">
               <path>Providers\DataProviders\SqlDataProvider</path>
               <name>01.00.00.SqlDataProvider</name>
@@ -35,7 +35,7 @@
 
         <component type="ResourceFile">
           <resourceFiles>
-            <basePath>DesktopModules/OUHR/FileExplorer</basePath>
+            <basePath>DesktopModules/Gafware/FileExplorer</basePath>
             <resourceFile>
               <name>Resources.zip</name>
             </resourceFile>
@@ -45,8 +45,8 @@
         <component type="Module">
           <desktopModule>
             <moduleName>FileExplorer</moduleName>
-            <foldername>OUHR/FileExplorer</foldername>
-            <businessControllerClass>OUHR.Modules.FileExplorer.Components.FeatureController</businessControllerClass>
+            <foldername>Gafware/FileExplorer</foldername>
+            <businessControllerClass>Gafware.Modules.FileExplorer.Components.FeatureController</businessControllerClass>
             <supportedFeatures />
             <moduleDefinitions>
               <moduleDefinition>
@@ -55,7 +55,7 @@
                 <moduleControls>
                   <moduleControl>
                     <controlKey />
-                    <controlSrc>DesktopModules/OUHR/FileExplorer/View.ascx</controlSrc>
+                    <controlSrc>DesktopModules/Gafware/FileExplorer/View.ascx</controlSrc>
                     <supportsPartialRendering>True</supportsPartialRendering>
                     <controlTitle />
                     <controlType>View</controlType>
@@ -65,7 +65,7 @@
                   </moduleControl>
                   <moduleControl>
                     <controlKey>Settings</controlKey>
-                    <controlSrc>DesktopModules/FileExplorer/OUHR/Settings.ascx</controlSrc>
+                    <controlSrc>DesktopModules/Gafware/FileExplorer/Settings.ascx</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
                     <controlTitle>File Explorer Settings</controlTitle>
                     <controlType>Edit</controlType>
@@ -81,7 +81,7 @@
         <component type="Assembly">
           <assemblies>
             <assembly>
-              <name>OUHR.FileExplorer.dll</name>
+              <name>Gafware.FileExplorer.dll</name>
               <path>bin</path>
             </assembly>
           </assemblies>

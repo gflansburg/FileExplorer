@@ -1,5 +1,5 @@
 ﻿/*
-' Copyright (c) 2014  University of Oklahoma - Human Resources
+' Copyright (c) 2021  Gafware
 '  All rights reserved.
 ' 
 ' THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
@@ -17,7 +17,7 @@ using DotNetNuke.Entities.Modules;
 using DotNetNuke.Entities.Modules.Actions;
 using DotNetNuke.Services.Localization;
 
-namespace OUHR.Modules.FileExplorer
+namespace Gafware.Modules.FileExplorer
 {
     /// -----------------------------------------------------------------------------
     /// <summary>

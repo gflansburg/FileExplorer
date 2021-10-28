@@ -7,9 +7,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("File Explorer")]
 [assembly: AssemblyDescription("DNN File Explorer Module")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("University of Oklahoma - Human Resources")]
+[assembly: AssemblyCompany("Gafware")]
 [assembly: AssemblyProduct("File Explorer")]
-[assembly: AssemblyCopyright("Copyright © 2014")]
+[assembly: AssemblyCopyright("Copyright © 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

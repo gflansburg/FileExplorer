@@ -15,7 +15,7 @@ using System.Collections.Generic;
 using DotNetNuke.Entities.Modules;
 using DotNetNuke.Services.Search;
 
-namespace OUHR.Modules.FileExplorer.Components
+namespace Gafware.Modules.FileExplorer.Components
 {
 
     /// -----------------------------------------------------------------------------

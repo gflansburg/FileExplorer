@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using Telerik.Web.UI.Widgets;
 
-namespace OUHR.Modules.FileExplorer
+namespace Gafware.Modules.FileExplorer
 {
     public class DNNFileSystemContentProvider : Telerik.Web.UI.Widgets.FileSystemContentProvider
     {
@@ -33,22 +33,32 @@ namespace OUHR.Modules.FileExplorer
         }
 
         public override DirectoryItem ResolveRootDirectoryAsTree(string path)  
-        {  
-            DirectoryItem originalFolder = base.ResolveRootDirectoryAsTree(path);  
-            DirectoryItem[] originalDirectories = originalFolder.Directories;  
-            List<DirectoryItem> filteredDirectories = new List<DirectoryItem>();  
- 
-            // Filter the folders   
-            foreach (DirectoryItem originalDir in originalDirectories)  
-            {  
-                if (!this.IsFiltered(originalFolder, originalDir))  
-                {  
-                    filteredDirectories.Add(originalDir);  
-                }  
-            }  
-            DirectoryItem newFolder = new DirectoryItem(originalFolder.Name, originalFolder.Location, originalFolder.FullPath, originalFolder.Tag, originalFolder.Permissions, originalFolder.Files, filteredDirectories.ToArray());  
- 
-            return newFolder;  
+        {
+            try
+            {
+                DirectoryItem originalFolder = base.ResolveRootDirectoryAsTree(path);
+                if (originalFolder != null)
+                {
+                    DirectoryItem[] originalDirectories = originalFolder.Directories;
+                    List<DirectoryItem> filteredDirectories = new List<DirectoryItem>();
+
+                    // Filter the folders   
+                    foreach (DirectoryItem originalDir in originalDirectories)
+                    {
+                        if (!this.IsFiltered(originalFolder, originalDir))
+                        {
+                            filteredDirectories.Add(originalDir);
+                        }
+                    }
+                    DirectoryItem newFolder = new DirectoryItem(originalFolder.Name, originalFolder.Location, originalFolder.FullPath, originalFolder.Tag, originalFolder.Permissions, originalFolder.Files, filteredDirectories.ToArray());
+
+                    return newFolder;
+                }
+            }
+            catch
+            {
+            }
+            return null;
         } 
 
         private bool IsFiltered(DirectoryItem oldItem, FileItem fileItem)  

@@ -1,8 +1,8 @@
 ﻿<h3>File Explorer</h3>
 <p class="Contributor">
 	University of Oklahoma <br />
-	<a href="mailto:ohr@ou.edu">ohr@ou.edu</a><br />
-	<a href=http://hr.ou.edu>http://hr.ou.edu</a><br />
+	<a href="mailto:support@gafware.com">support@gafware.com</a><br />
+	<a href=https://www.gafware.com>https://www.gafware.com</a><br />
 </p>
 <hr/>
 <div class="License">
