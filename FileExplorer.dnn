@@ -56,7 +56,7 @@
                   <moduleControl>
                     <controlKey />
                     <controlSrc>DesktopModules/Gafware/FileExplorer/View.ascx</controlSrc>
-                    <supportsPartialRendering>True</supportsPartialRendering>
+                    <supportsPartialRendering>False</supportsPartialRendering>
                     <controlTitle />
                     <controlType>View</controlType>
                     <iconFile />
